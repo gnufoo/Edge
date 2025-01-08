@@ -59,18 +59,6 @@ npm run setup
 npm run start
 ```
 
-## 📊 Performance
-
-<p align="center">
-  <img src="docs/assets/unity-demo.gif" alt="Unity Rendering Demo" width="600"/>
-</p>
-
-Edge demonstrates state-of-the-art performance in:
-- Real-time object detection and tracking
-- Natural language interaction
-- Complex motion planning
-- Multi-agent coordination
-
 ## 🛠 Technical Stack
 
 - **Core Framework**: Node.js
@@ -110,7 +98,7 @@ We welcome contributions! See our [Contribution Guidelines](docs/CONTRIBUTION.md
 ## 🌟 Showcase
 
 <p align="center">
-  <img src="docs/assets/showcase-grid.png" alt="Edge Framework Showcase" width="800"/>
+  <img src="docs/assets/unity-demo.gif" alt="Unity Rendering Demo" width="600"/>
 </p>
 
 ## 📄 License
