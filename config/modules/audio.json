@@ -1,0 +1,36 @@
+{
+    "sampleRate": 16000,
+    "channels": 1,
+    "encoding": "LINEAR16",
+    "vadConfig": {
+        "enabled": true,
+        "mode": 3,
+        "silenceThreshold": 500
+    },
+    "streaming": {
+        "enabled": true,
+        "chunkSize": 1024,
+        "bufferSize": 4096
+    },
+    "speechToText": {
+        "model": "whisper-large-v3",
+        "language": "en",
+        "task": "transcribe",
+        "useGPU": true
+    },
+    "noiseReduction": {
+        "enabled": true,
+        "strength": 0.5
+    },
+    "textToSpeech": {
+        "model": "elevenlabs",
+        "voice": "default",
+        "speed": 1.0,
+        "pitch": 1.0
+    },
+    "monitoring": {
+        "volumeThreshold": -30,
+        "peakNormalization": true,
+        "audioQualityCheck": true
+    }
+} 

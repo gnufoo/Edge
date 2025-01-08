@@ -1,0 +1,17 @@
+{
+    "environment": "development",
+    "backup": false,
+    "runMigrations": true,
+    "serverConfig": {
+        "host": "localhost",
+        "port": 3000
+    },
+    "monitoring": {
+        "enabled": true,
+        "interval": 5000
+    },
+    "debugging": {
+        "enabled": true,
+        "verbose": true
+    }
+} 

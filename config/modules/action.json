@@ -1,0 +1,28 @@
+{
+    "maxActions": 5,
+    "timeout": 30000,
+    "retryConfig": {
+        "maxRetries": 3,
+        "backoffMultiplier": 1.5,
+        "initialDelay": 1000
+    },
+    "validation": {
+        "enabled": true,
+        "strictMode": false
+    },
+    "actionTypes": {
+        "system": ["restart", "shutdown", "update"],
+        "interaction": ["speak", "move", "gesture"],
+        "data": ["save", "load", "query"]
+    },
+    "priorities": {
+        "high": ["emergency", "alert"],
+        "medium": ["user-request", "scheduled-task"],
+        "low": ["background", "maintenance"]
+    },
+    "logging": {
+        "detailedLogs": true,
+        "logActions": true,
+        "logResults": true
+    }
+} 

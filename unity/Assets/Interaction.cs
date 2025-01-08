@@ -60,7 +60,7 @@ public class Interaction : MonoBehaviour
         string url = "https://api.deepseek.com/chat/completions";
 
         // Your DeepSeek API Key
-        string apiKey = "sk-a0b6775d70714faca9425b3d088f2927";
+        string apiKey = "<put your api key here>";
 
         // Prepare the JSON body for the request
         string jsonBody = @"
